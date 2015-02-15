@@ -1,0 +1,27 @@
+{
+  "name": "jocolopes/json-assets",
+  "description": "Provides an easy way to grab assets",
+  "type": "library",
+  "version": "1.0.0",
+  "keywords": ["library", "assets", "manager", "json", "js", "css"],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Joao Lopes",
+      "email": "jocolopes@gmail.com"
+    }
+  ],
+  "autoload": {
+    "classmap": [
+      "Jocolopes",
+      "tests"
+    ]
+  },
+  "require": {
+    "php": ">=5.4.0",
+    "jocolopes/filefilter": "1.0.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "4.6.*@dev"
+  }
+}
