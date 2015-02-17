@@ -1,0 +1,21 @@
+{
+    "universal": {
+        "head": [
+            "/example/asset10.css",
+            "/example/test/asset2.css",
+            "/example/**/*.css"
+        ],
+        "body": [
+            "/example/test/asset8.js",
+            "/example/test/**/*.js"
+        ]
+    },
+    "mobile": {
+        "head": [
+            "/mobile.css"
+        ],
+        "body": [
+            "/mobile.js"
+        ]
+    }
+}
