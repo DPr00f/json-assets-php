@@ -2,7 +2,7 @@
   "name": "jocolopes/json-assets",
   "description": "Provides an easy way to grab assets",
   "type": "library",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "keywords": ["library", "assets", "manager", "json", "js", "css"],
   "license": "MIT",
   "authors": [
