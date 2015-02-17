@@ -5,7 +5,14 @@ use Jocolopes\Filefilter;
 
 
 class Json {
-  function __construct($jsonFile) {
-    echo "boom";
-  }
+
+    protected $loadedFiles;
+    protected $assetsRootFolder;
+    protected $types;
+
+    function __construct($jsonFile, $assetsRootFolder, $typesClass = '\Jocolopes\Request\Types') {
+        $this->loadedFiles      = array('head' => [], 'body' => []);
+        $this->assetsRootFolder = $assetsRootFolder;
+        $this->types            = new $typesClass();
+    }
 }
