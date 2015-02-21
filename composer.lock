@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "62ec64f2fbde3d4c4b2c57fdf150292e",
+    "hash": "e94a4951a09cc42840299f60a9021f80",
     "packages": [
         {
             "name": "danielstjules/stringy",
@@ -273,7 +273,7 @@
         },
         {
             "name": "jocolopes/filefilter",
-            "version": "1.0.0",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/DPr00f/filefilter.git",
@@ -1324,6 +1324,7 @@
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
+        "jocolopes/filefilter": 20,
         "phpunit/phpunit": 20
     },
     "prefer-stable": false,

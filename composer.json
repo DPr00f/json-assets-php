@@ -19,7 +19,7 @@
   },
   "require": {
     "php": ">=5.4.0",
-    "jocolopes/filefilter": "1.0.0",
+    "jocolopes/filefilter": "dev-master",
     "jenssegers/agent": "~2.1"
   },
   "require-dev": {
